@@ -1,167 +1,189 @@
-<html>
+<!doctype html>
 <head>
-<title>Mod2_solution</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style>
-	h1{
-  text-align:center;
-  margin-top:30px
-}
-section{position:absolute;
-        top:150px;
-      margin-left:100px;
-       width:380px;
-       height: 175px;
-       background-color:gray;
-       border:1px solid black;
+	<style>
+		body{
+			margin:0px;
+			padding: 0px;
+		}   
+		div{
+			  background-color:gray;
+			  width:400px;
+			  height: 150px;
+			  position: absolute;
+			  top:150px;
+			  left:80px;
+			  padding: 20px;
+			  box-sizing: border-box;
+			  border:1px solid black;
+			  
+			}
+			  
+			 div span{
+			  	   width:60px;
+			  	   height: 20px;
+			  	   background-color:#FFB6C1;
+			  	   position: absolute;
+			  	   top:0px;
+			  	   left:85%;
+			  	   border-left: 1px solid black;
+			  	   border-bottom: 1px solid black;
+			  	   text-align: center;
+			  	  
+			      }
+			      article{
+			  background-color:gray;
+			  width:400px;
+			  height: 150px;
+			  position: absolute;
+			  top:150px;
+			  left:570px;
+			  padding: 20px;
+			  box-sizing: border-box;
+			  border:1px solid black;
 
-}
-article{position:absolute;
-      top:150px;
-      left:550px;
-       width:380px;
-       height: 175px;
-       background-color:gray;
-       border:1px solid black;
-}
-span{position:absolute;
-      top:150px;
-      left:990px;
-       width:380px;
-       height: 175px;
-       background-color:gray;
-       border:1px solid black;
-}
-div{ 
-    margin-left: 269.5px;
-		text-align: center;
-	 	 font-weight: bold;
-	 	 font-size: 20px;
-	 	 color:black;
-	 	 width: 110px;
-	 	 height: 30px;
-	 	 background-color:#FFB6C1; 
-     border-left: 1px solid black;
-	 	 border-bottom: 1px solid black;
-   }
-   p{
-     margin-left: 15px;
-   }
-   article>div{
-              color:white;
-              background-color:#A52A2A;
-   }
-   span>div{
-              background-color:#F0E68C;
-   }
-  
-   @media screen and (max-width: 993px)
-    {
-    	section{
-    		width:100%;
-    }
-    @media screen and (min-width: 768px) and (max-width:992px )
-    {
+			}
+			  
+			 article span{
+			  	   width:60px;
+			  	   height: 20px;
+			  	   background-color:#A52A2A;
+			  	   position: absolute;
+			  	   top:0px;
+			  	   left:85%;
+			  	   border-left: 1px solid black;
+			  	   border-bottom: 1px solid black;
+			  	   text-align: center;
+			  	   color:white;
+			  	  
+			      }
+			      aside{
+			  background-color:gray;
+			  width:400px;
+			  height: 150px;
+			  position: absolute;
+			  top:150px;
+			  left:1050px;
+			  padding: 20px;
+			  box-sizing: border-box;
+			  border:1px solid black;
 
-    	section{
-    		width:45%;
-    		height:25%;
-    		margin-left:15px;
-    		font-size: 100%;
-    		float:left;
+			}
+			  
+			 aside span{
+			  	   width:60px;
+			  	   height: 20px;
+			  	   background-color:#F0E68C;
+			  	   position: absolute;
+			  	   top:0px;
+			  	   left:85%;
+			  	   border-left: 1px solid black;
+			  	   border-bottom: 1px solid black;
+			  	   text-align: center;
+			  	  
+			      }
+			      h1{
+			      	text-align: center;
+			      	position: relative;
+			      	top:20px;
+					 }
+					 @media screen and (min-width:992px)
+			  	        {
+			  	        	div{
+			  	        		width: 30%;
+			  	        		left:2%;
+			  	        		
+			  	        		overflow:auto;
 
-
-    	       }
-    	       div{
-    	       	position: relative;
-    	       	left:21px;
-    	       	font-size: 18px;
-    	       	width:20%;
-    	       	height:10%;
-    	       	text-align: center;
-
-    	       	
-    	       }
-    	       h1{
-    	       	margin-top: 50px;
-    	       	font-size: 150%;
-    	       }
-    	       article{
-    	       	position: absolute;
-    	       	top:150px;
-    	        left:405px;
-    		   width:45%;
-    		   height:25%;
-    		    font-size: 100%;
-    		    float:left;
-    	       }
-    	    
-    	       	span{
-    	       	position: absolute;
-    	       	top:370px;
-    	       	left:25px;
-    	       
-    		    width:95%;
-    		    height:30%;
-    		   margin-right:500px;
-    		   font-size: 100%;
-    		   float:left;
-    		   }
-    		   span > div{
-    		   	position: relative;
-    		   	left:345px;
-}}
-@media screen and (max-width:767px )
-    {
-     section{    position: absolute;
-	        left:0px;
-	        top:80px;
-    		width:60%;
-    		height:20%;
-    		margin-left:150px;
-    		font-size: 100%;
-        }
-      article{
-    	       	position: absolute;
-    	       	top:280px;
-    	        left:150px;
-    		   width:60%;
-    		   height:20%;
-    		    font-size: 100%;
-    		}
-    		span{
-    	       	position: absolute;
-    	       	top:480px;
-    	        left:150px;
-    		   width:60%;
-    		   height:20%;
-    		    font-size: 100%;
-    		   }
-    		div{
-				position: absolute;
-				width:20%;
-				height: 17px;
-				left:53px;
-				font-size:16px;
-    		}
-    	      
-   }
-    		}
-</style>
+			  	        	   }
+			  	        	   article{
+			  	        		width: 28%;
+			  	        		overflow:auto;
+			  	        		left:36%;
+			  	        	}
+			  	        	aside{
+			  	        		width: 28%;
+			  	        		left:68%;
+			  	        		overflow:auto;
+			  	        	}
+			  	        	div span{
+			  	        		  left:90%;
+			  	        	}
+			  	        	article span{
+			  	        		  left:90%;
+			  	        	}
+			  	        	aside span{
+			  	        		  left:90%;
+			  	        	}
+			  	       
+			  	      }
+			
+					@media screen and (max-width:767px)
+					{
+						div{
+							padding:5px;
+							width:50%;
+						    left:28%;
+						    overflow:auto;
+						  	}
+						article{padding:5px;
+							width:50%;
+							left:28%;
+							top:35%;
+							overflow:auto;
+							}
+						aside{padding:5px;
+							width:50%;
+							left:28%;
+							top:55%;
+							overflow:auto;
+							}
+				    }
+				    	@media screen and (min-width:768px) and (max-width:991px)
+					{
+						div{
+							padding:5px;
+							width:40%;
+						    left:10%;
+						    overflow:auto;
+						  	}
+						article{padding:5px;
+							width:40%;
+							left:55%;
+						    overflow:auto;
+							}
+						aside
+						{
+							padding:5px;
+							width:85%;
+							left:10%;
+							top:35%;
+							overflow:auto;
+						}
+						aside span
+						{
+			  	  
+			  	            left:93%;
+			  	        }
+			  	        
+			 
+		   			    
+	</style>
+		
 </head>
 <body>
 	<h1>Our Menu</h1>
-  <section>
-      <div>Chicken</div>
-      <p> lorem ipsum dolor sit amet, consectetur <br> adipisiciing elit, sed do eiusmod tempor incididunt<br> ut labore et dolore magna aliqua. Ut enim ad<br> minim veniam,quis nostrud exercitation ullamco<br> laboris nisi ut aliquip ex ea commodo consequat.</p>
-  </section>
- <article>
-   <div>Beef</div>
-   <p> lorem ipsum dolor sit amet, consectetur <br> adipisiciing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua. Ut<br> enim ad minim veniam,quis nostrud exercitation<br>  ullamcolaboris nisi ut aliquip ex ea commodo<br> consequat.</p>
- </article>
- <span>
-   <div>Sushi</div>
-    <p> lorem ipsum dolor sit amet, consectetur <br> adipisiciing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua. Ut<br> enim ad minim veniam,quis nostrud exercitation<br>  ullamcolaboris nisi ut aliquip ex ea commodo<br> consequat.</p>
- </span>
+	<div>
+		<p><span>Chicken</span>lorem ipsum dolor sit amet, consectetur <br> adipisiciing elit, sed do eiusmod tempor incididunt<br> ut labore et dolore magna aliqua. Ut enim ad<br> minim veniam,quis nostrud exercitation ullamco<br> laboris nisi ut aliquip ex ea commodo consequat.</p>
+	</div>
+	<article>
+		<p><span>Beef</span>lorem ipsum dolor sit amet, consectetur <br> adipisiciing elit, sed do eiusmod tempor incididunt<br> ut labore et dolore magna aliqua. Ut enim ad<br> minim veniam,quis nostrud exercitation ullamco<br> laboris nisi ut aliquip ex ea commodo consequat.</p>
+	</article>
+	<aside>
+		<p><span>Sushi</span>lorem ipsum dolor sit amet, consectetur <br> adipisiciing elit, sed do eiusmod tempor incididunt<br> ut labore et dolore magna aliqua. Ut enim ad<br> minim veniam,quis nostrud exercitation ullamco<br> laboris nisi ut aliquip ex ea commodo consequat.</p>
+	</aside>
+	
+
+</body>
 </html>
